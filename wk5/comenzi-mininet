@@ -1,0 +1,10 @@
+sudo mn
+h1 ping h2
+h2 ping h1
+
+doua terminale pornite cu 
+
+sudo mnexec -a [PID] bash
+un server in h1 
+un client in h2
+captura de trafic cu wireshark

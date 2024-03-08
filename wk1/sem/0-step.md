@@ -1,0 +1,20 @@
+# În acest pas ne vom familiariza cu o serie de unelte de investigare a rețelelor de calculatoare
+- ping
+  - utilitate - verificarea conectivității între 2 calculatoare
+  - mecanism 
+    - A trimite un pachet de date peste protocolul ICMP
+    - la primirea pachetului, B îl trimite înapoi
+    - testul este rulat pentru pachete multiple
+  - explicații suplimentare:
+    - icmp_seq=1 al câtelea pachet este pachetul trimis
+    - ttl(time to live) câte segmente de rețea mai poate naviga pachetul înainte de a fi aruncat; este un mecanism de a evita pachete zombie (care navighează etern un traseu ciclic în rețea)
+    - time - o metrică de calitate a rețelei, reprezintă timpul necesar pentru un pachet să parcurgă rețeaua de la A la B și înapoi la A
+- netstat
+- route
+- traceroute
+- netcat
+- wireshark
+  - selectable interfaces
+  - capture filters
+  - viz filters
+- tshark
